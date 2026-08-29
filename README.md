@@ -1,128 +1,225 @@
-Isa Adebayo Sambo Personal Portfolio
+# Isa Adebayo Sambo Personal Portfolio
 
-A responsive personal portfolio website built with HTML and CSS to showcase my technical skills, projects, learning journey, experience, certifications, and professional interests.
+A responsive personal portfolio website built with HTML and CSS to showcase my technical skills, projects, learning journey, experience, certifications, participation, and professional interests.
 
-Live Website
+## Live Website
 
-[https://isaxpert.github.io/isa-adebayo-portfolio/](https://isaxpert.github.io/isa-adebayo-portfolio/)
+https://isaxpert.github.io/isa-adebayo-portfolio/
 
-About the Project
+## About the Project
 
 This project is my personal portfolio website.
 
-It was created to provide a simple and professional way for visitors, recruiters, collaborators, and other developers to learn about my background, technical skills, projects, experience, learning journey, and areas of interest.
+I created it as a simple and professional way for visitors, recruiters, collaborators, and other developers to learn about my background, technical development, projects, experience, and areas of interest.
 
-The website focuses on clean structure, readable content, responsive design, and a professional visual presentation.
+The website focuses on clean structure, readable content, responsive design, and professional visual presentation.
 
-What the Website Contains
+## Purpose
 
-The portfolio contains a personal introduction and professional profile.
+The main purpose of this portfolio is to document my development as a Computer Science student and aspiring software engineer.
 
-It presents my learning journey and technical development.
+It also serves as a practical project where I can apply what I learn about web development while continuously improving my technical and professional skills.
 
-It showcases my current technical skills and areas of development.
+## What the Website Contains
 
-It presents selected projects I have built and explored.
+The portfolio contains the following sections:
 
-It contains information about my experience and areas of teaching and mentoring.
+Personal introduction and professional profile
 
-It includes certifications and participation.
+Learning journey and technical development
 
-It explains my current learning goals.
+Current technical skills and areas of development
 
-It presents practical skills that I can contribute.
+Selected projects and practical work
 
-It explains qualities and strengths I can bring to a working environment.
+Experience, teaching, and mentoring activities
 
-It provides contact and social information.
+Certifications and participation
 
-Technologies Used
+Current learning goals
+
+Practical skills I can contribute
+
+Professional qualities and strengths
+
+Contact information
+
+## Technologies Used
 
 HTML5
 
 CSS3
 
-The current version does not require JavaScript for its core functionality.
+GitHub
 
-Project Structure
+GitHub Pages
+
+## Project Structure
+
+The project currently uses a simple structure:
 
 isa-adebayo-portfolio/
-│
-├── index.html
-├── styles.css
-└── README.md
 
 index.html
 
-The index.html file contains the structure and content of the portfolio website.
-
-It contains the navigation, introduction, learning journey, skills, projects, experience, certifications, current learning section, practical skills, work with me section, contact section, and footer.
-
 styles.css
-
-The styles.css file contains the visual design of the portfolio.
-
-It controls the layout, typography, colors, spacing, cards, responsive behavior, navigation, sections, and other visual elements of the website.
 
 README.md
 
-The README.md file provides documentation about the project.
+### index.html
 
-It explains what the project is, what technologies were used, how to view the project, and an important point that someone working with the project should understand.
+The `index.html` file contains the structure and content of the portfolio website.
 
-How to View the Project
+It defines the different sections of the page, including the navigation, introduction, skills, projects, experience, certifications, learning goals, contact information, and footer.
 
-The easiest way to view the portfolio is through the live GitHub Pages website.
+### styles.css
 
-Open the following address in a web browser:
+The `styles.css` file contains the styling and visual presentation of the website.
+
+It is responsible for the layout, typography, spacing, colors, responsive behaviour, navigation styling, cards, buttons, and other visual elements.
+
+### README.md
+
+This file provides information about the project, its purpose, structure, technologies, and how the website can be accessed.
+
+## How to View the Project
+
+You can visit the live version of the website using the link below:
 
 https://isaxpert.github.io/isa-adebayo-portfolio/
 
-The project can also be downloaded or cloned from GitHub and opened locally.
+You can also download or clone the repository and open the `index.html` file in a web browser.
 
-To run it locally, download or clone the repository, open the project folder, and open index.html in a web browser.
+## How to Run the Project Locally
 
-Because the project currently uses HTML and CSS, no package installation or JavaScript runtime is required.
+No special software or dependencies are required to run the current version of this project.
 
-Important Thing a Newcomer Might Get Wrong
+Follow these steps:
 
-One important thing to check is the connection between the HTML file and the CSS file.
+1. Download or clone the repository.
 
-The HTML file must correctly reference the stylesheet.
+2. Open the project folder.
 
-The current project uses:
+3. Open `index.html` in a web browser.
 
-html
-<link rel="stylesheet" href="styles.css">
+The website should load locally.
 
-The stylesheet path is important because styles.css is located in the root of the repository alongside index.html.
+## How to Edit the Project
 
-If the stylesheet path is incorrect, the website may still load but appear as plain HTML without the intended design and formatting.
+To change the content of the website, edit the relevant sections inside `index.html`.
 
-Responsive Design
+To change the appearance of the website, edit `styles.css`.
 
-The portfolio is designed to adapt to different screen sizes, including desktop and mobile devices.
+After making changes, save the files and open the website again in a browser to check the result.
 
-CSS is used to control the layout and presentation across different screen sizes.
+If the changes are made directly in GitHub, commit the changes to the `main` branch so that GitHub Pages can deploy the updated version.
 
-Project Purpose
+## GitHub Pages Deployment
 
-The main purpose of this project is to build and demonstrate practical front end development skills while creating a professional online presence.
+This project is hosted using GitHub Pages.
 
-The project also provides a place to document my learning journey, showcase projects, present technical interests, and give visitors an overview of my skills and experience.
+The website is deployed from the `main` branch of this repository.
 
-Future Improvements
+The published website is available at:
 
-Future versions of the portfolio may include JavaScript interactions, additional completed projects, improved accessibility features, individual project pages, a downloadable CV, a functional contact form, and additional features as my technical skills continue to develop.
+https://isaxpert.github.io/isa-adebayo-portfolio/
 
-Author
+GitHub Pages makes it possible to publish the static HTML and CSS files online without requiring a separate web hosting service.
+
+## What I Learned
+
+Building this project helped me practise the fundamentals of creating a real website using HTML and CSS.
+
+Some of the areas I worked with include:
+
+Semantic HTML structure
+
+Page navigation
+
+Responsive web design
+
+CSS layout
+
+Typography
+
+Spacing and visual hierarchy
+
+Reusable styling
+
+Portfolio content organization
+
+Git and GitHub
+
+GitHub repository management
+
+GitHub Pages deployment
+
+## Development Approach
+
+The project was developed with a focus on keeping the website simple, readable, and easy to maintain.
+
+HTML is used for the structure and content.
+
+CSS is used for the visual presentation and responsive layout.
+
+JavaScript is not required for the current version of the portfolio.
+
+This keeps the project focused on strengthening my understanding of HTML, CSS, web structure, and responsive design fundamentals.
+
+## Challenges
+
+One of the main challenges of building the project was organizing a large amount of personal and professional information into a structure that remains easy to read.
+
+Another challenge was creating a professional visual presentation while keeping the code simple enough to understand and maintain.
+
+Publishing the project with GitHub Pages also gave me practical experience with deploying a website from a GitHub repository.
+
+## Future Improvements
+
+Possible future improvements include:
+
+Adding more projects
+
+Improving accessibility
+
+Adding more responsive design refinements
+
+Adding project screenshots
+
+Creating individual project pages
+
+Improving navigation interactions
+
+Adding JavaScript functionality where appropriate
+
+Adding a downloadable CV
+
+Improving performance and optimization
+
+Continuously updating the portfolio as my skills develop
+
+## Current Learning Direction
+
+I am continuing to develop my foundation in programming, web development, data analysis, databases, and software engineering.
+
+My goal is to turn what I learn into practical projects and continuously improve through real-world problem solving.
+
+## Project Status
+
+This project is actively being developed and improved.
+
+The portfolio represents my current stage of learning and will continue to evolve as I gain more knowledge, build more projects, and develop additional technical skills.
+
+## Author
 
 Isa Adebayo Sambo
 
 Computer Science Student and Aspiring Software Engineer
 
-My interests include web development, data analysis, software engineering, problem solving, and continuous learning.
+## Contact
 
-License
+For professional opportunities, collaboration, feedback, or questions, please use the contact information provided on the portfolio website.
 
-This project is a personal portfolio project created for learning, professional development, and showcasing my work.
+Live Portfolio:
+
+https://isaxpert.github.io/isa-adebayo-portfolio/
